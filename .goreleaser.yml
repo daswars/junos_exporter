@@ -33,6 +33,7 @@ nfpms:
         dst: /usr/lib/systemd/system/prometheus-junos-exporter.service
     formats:
       - deb
+      - rpm
     dependencies:
       - systemd
     scripts:
